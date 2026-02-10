@@ -12933,7 +12933,7 @@
               click: Me("open-in-shell"),
             },
             {
-              label: "资源管理器中显示(&x)",
+              label: "资源管理器 中显示(&x)",
               id: "open-working-directory",
               accelerator: "CmdOrCtrl+Shift+F",
               click: Me("open-working-directory"),
@@ -13075,7 +13075,7 @@
             },
           },
           {
-            label: "显示用户指南(&G)",
+            label: "用户指南(&G)",
             click() {
               r.shell
                 .openExternal("https://docs.github.com/en/desktop")
@@ -13083,7 +13083,7 @@
             },
           },
           {
-            label: "显示键盘快捷键(&K)",
+            label: "键盘快捷键(&K)",
             click() {
               r.shell
                 .openExternal(
@@ -13095,7 +13095,7 @@
             },
           },
           {
-            label: "在资源管理器中显示日志(&S)",
+            label: "查看日志(&S)",
             click() {
               const e = i();
               (0, g.mkdir)(e, { recursive: !0 })
